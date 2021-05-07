@@ -1,0 +1,18 @@
+gamma: 0.99
+epsilon: 1
+batch_size: 64
+episodes: 400
+epsilon_decay: 0.995
+layer1dim: 64
+layer2dim: 32
+plot_one: True
+plot_moving: True
+plot_gamma_tune: False
+gamma_list: [0.5, 0.7]
+plot_decay_tune: False
+decay_list: [0.8, 0.998]
+plot_batch_tune: False
+batch_size_list: [32, 64]
+plot_gamma_decay: False
+early_stopping_score: 230
+environment: "CartPole-v1" # "LunarLander-v2" or "CartPole-v1" 
